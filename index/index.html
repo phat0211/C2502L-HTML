@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Defy NFT Platform</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 
 <body>
@@ -22,18 +23,20 @@
                     <li><a href="#">Explore ▼</a></li>
                 </ul>
             </nav>
+            <div class="icon-header">
+                <i class="fa-solid fa-bars"></i>
+            </div>
             <div class="search-login">
                 <div class="search-box">
                     <input type="text" placeholder="Search for collections, NFTs or users" />
                     <span class="search-icon">/</span>
                 </div>
-
                 <button class="setting-btn">⚙</button>
-
                 <div class="button-group">
                     <button class="login">Login</button>
                     <button class="wallet">Select Wallet</button>
                 </div>
+                
             </div>
         </header>
     </body>
@@ -60,67 +63,113 @@
         </div>
         <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. amet ipsum urna in diam mauris.
         </p>
-
-        <div class="card-grid">
-            <div class="card"><img src="Asset/image 1.png" alt="NFT 1">
-                <div class="card-info">
-                    <div class="creator">Naomi Po</div>
-                    <h3>Name of the collection</h3>
-                    <p>Short Description</p><button>View collection</button>
-                </div>
-            </div>
-            <div class="card"><img src="Asset/image 2.png" alt="NFT 2">
-                <div class="card-info">
-                    <div class="creator">Naomi Po</div>
-                    <h3>Name of the collection</h3>
-                    <p>Short Description</p><button>View collection</button>
-                </div>
-            </div>
-            <div class="card"><img src="Asset/image 3.png" alt="NFT 3">
-                <div class="card-info">
-                    <div class="creator">Naomi Po</div>
-                    <h3>Name of the collection</h3>
-                    <p>Short Description</p><button>View collection</button>
-                </div>
-            </div>
-            <div class="card"><img src="Asset/image 4.png" alt="NFT 4">
-                <div class="card-info">
-                    <div class="creator">Naomi Po</div>
-                    <h3>Name of the collection</h3>
-                    <p>Short Description</p><button>View collection</button>
-                </div>
-            </div>
-            <div class="card"><img src="Asset/image 5.png" alt="NFT 5">
-                <div class="card-info">
-                    <div class="creator">Naomi Po</div>
-                    <h3>Name of the collection</h3>
-                    <p>Short Description</p><button>View collection</button>
-                </div>
-            </div>
-            <div class="card"><img src="Asset/image 6.png" alt="NFT 6">
-                <div class="card-info">
-                    <div class="creator">Naomi Po</div>
-                    <h3>Name of the collection</h3>
-                    <p>Short Description</p><button>View collection</button>
-                </div>
-            </div>
-            <div class="card"><img src="Asset/image 7.png" alt="NFT 7">
-                <div class="card-info">
-                    <div class="creator">Naomi Po</div>
-                    <h3>Name of the collection</h3>
-                    <p>Short Description</p><button>View collection</button>
-                </div>
-            </div>
-            <div class="card"><img src="Asset/image 8.png" alt="NFT 8">
-                <div class="card-info">
-                    <div class="creator">Naomi Po</div>
-                    <h3>Name of the collection</h3>
-                    <p>Short Description</p><button>View collection</button>
-                </div>
-            </div>
+    <section class="collections">
+        <div class="collections-header">
+          <div>
+            <h2>Featured Collections</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet ipsum urna in diam mauris.</p>
+          </div>
+          <button class="view-all">View all</button>
         </div>
-    </section>
-
+        <div class="collection-grid">
+          <div class="card">
+            <img src="Asset/image 1.png" alt="Collection Image" class="card-img" />
+            <div class="card-body">
+              <div class="author">
+                <img src="Asset/naomi.png" alt="Avatar" class="avatar" />
+                <span>Naomi Po</span>
+              </div>
+              <h3>Name of the collection</h3>
+              <p>Short Description</p>
+              <button class="btn">View collection</button>
+            </div>
+          </div>
+          <div class="card">
+            <img src="Asset/image 2.png" alt="Collection Image" class="card-img" />
+            <div class="card-body">
+              <div class="author">
+                <img src="Asset/naomi.png" alt="Avatar" class="avatar" />
+                <span>Naomi Po</span>
+              </div>
+              <h3>Name of the collection</h3>
+              <p>Short Description</p>
+              <button class="btn">View collection</button>
+            </div>
+          </div>
+          <div class="card">
+            <img src="Asset/image 3.png" alt="Collection Image" class="card-img" />
+            <div class="card-body">
+              <div class="author">
+                <img src="Asset/naomi.png" alt="Avatar" class="avatar" />
+                <span>Naomi Po</span>
+              </div>
+              <h3>Name of the collection</h3>
+              <p>Short Description</p>
+              <button class="btn">View collection</button>
+            </div>
+          </div>
+          <div class="card">
+            <img src="Asset/image 4.png" alt="Collection Image" class="card-img" />
+            <div class="card-body">
+              <div class="author">
+                <img src="Asset/naomi.png" alt="Avatar" class="avatar" />
+                <span>Naomi Po</span>
+              </div>
+              <h3>Name of the collection</h3>
+              <p>Short Description</p>
+              <button class="btn">View collection</button>
+            </div>
+          </div>
+          <div class="card">
+            <img src="Asset/image 5.png" alt="Collection Image" class="card-img" />
+            <div class="card-body">
+              <div class="author">
+                <img src="Asset/naomi.png" alt="Avatar" class="avatar" />
+                <span>Naomi Po</span>
+              </div>
+              <h3>Name of the collection</h3>
+              <p>Short Description</p>
+              <button class="btn">View collection</button>
+            </div>
+          </div>
+          <div class="card">
+            <img src="Asset/image 6.png" alt="Collection Image" class="card-img" />
+            <div class="card-body">
+              <div class="author">
+                <img src="Asset/naomi.png" alt="Avatar" class="avatar" />
+                <span>Naomi Po</span>
+              </div>
+              <h3>Name of the collection</h3>
+              <p>Short Description</p>
+              <button class="btn">View collection</button>
+            </div>
+          </div>
+          <div class="card">
+            <img src="Asset/image 7.png" alt="Collection Image" class="card-img" />
+            <div class="card-body">
+              <div class="author">
+                <img src="Asset/naomi.png" alt="Avatar" class="avatar" />
+                <span>Naomi Po</span>
+              </div>
+              <h3>Name of the collection</h3>
+              <p>Short Description</p>
+              <button class="btn">View collection</button>
+            </div>
+          </div>
+          <div class="card">
+            <img src="Asset/image 8.png" alt="Collection Image" class="card-img" />
+            <div class="card-body">
+              <div class="author">
+                <img src="Asset/naomi.png" alt="Avatar" class="avatar" />
+                <span>Naomi Po</span>
+              </div>
+              <h3>Name of the collection</h3>
+              <p>Short Description</p>
+              <button class="btn">View collection</button>
+            </div>
+          </div>
+        </div>
+      </section>
     <section class="how-to">
         <div class="step">
             <div class="icon"><img src="Asset/Frame 74 - Sao chép.png" alt=""></div>
